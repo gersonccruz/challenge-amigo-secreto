@@ -5,10 +5,20 @@ function adicionarAmigo(){
     const entradaAmigo = document.getElementById('amigo');
     //trim evita entrada com apenas espaços.
     const nomeAmigo = entradaAmigo.value.trim();
-    if (nomeAmigo === ''){
+    if (nomeAmigo == ''){
         return alert('Por favor, insira um nome');
     } else {
         listaDeAmigos.push(nomeAmigo);
         entradaAmigo.value = '';
+        console.log(listaDeAmigos);
+        mostrarLista();
+    }
+}
+
+function mostrarLista(){
+    const amigosLista = document.getElementById('lista');
+    amigosLista.innerHTML = '';
+    for(i=0;i<listaDeAmigos.length;i++){
+        amigosLista.innerHTML += `<li>${listaDeAmigos[i]}</li>`;
     }
 }
