@@ -13,6 +13,8 @@ O projeto tem como seu principal objetivo obter a entrada de dados do usuário (
 4. Depois de adicionado, clique e "Sortear Amigo"
 5. E no fim, aparecerá o nome sorteado.
 
+* Você pode acessar o projeto aqui -> [Amigo Secreto](https://gersonccruz.github.io/challenge-amigo-secreto/)
+
 <div align="center">
     <img width="50%" align="center" src="assets/projeto-inicial.png" alt="Como era o projeto inicial">
 </div>
