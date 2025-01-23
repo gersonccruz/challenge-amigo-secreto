@@ -1,8 +1,8 @@
 :root {
-    --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
-    --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
+    --color-primary: #0b207ee7;
+    --color-secondary: #c3ecf7e5;
+    --color-tertiary: #8fa2aa;
+    --color-button: #db6767;
     --color-button-hover: #e55720;
     --color-text: #444444;
     --color-white: #FFFFFF;
@@ -10,9 +10,9 @@
 
 /* Estilos gerais */
 * {
-    margin: 0;
+    margin:auto;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing:content-box;
 }
 
 body {
@@ -32,7 +32,7 @@ body {
 
 /* Banner */
 .header-banner {
-    flex: 40%;
+    flex: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,30 +41,34 @@ body {
 
 /* Seção de entrada */
 .input-section {
-    flex: 60%;
+    flex: 100%;
     background-color: var(--color-secondary);
     border: 1px solid #000;
-    border-radius: 64px 64px 0 0;
+    border-radius: 40px 40px 40px 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
-    width: 100%;
+    padding: 25px;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 100%;
+    margin-top: 5dvh;
+    box-shadow:rgb(6, 9, 12)12px 20px 30px -10px;
 }
 
 /* Títulos */
 .main-title {
-    font-size: 48px;
-    font-family: "Merriweather", serif;
-    font-weight: 900;
-    font-style: italic;
+    font-size: 35px;
+    font-family:'Press Start 2P', monospace;
+    font-weight:150;
+    font-style:normal;
     color: var(--color-white);
 }
 
 .section-title {
-    font-family: "Inter", serif;
-    font-size: 36px;
-    font-weight: 700;
+    font-family: 'Press Start 2P', monospace;
+    font-size: 20px;
+    font-weight: 150;
     color: var(--color-primary);
     margin: 10px 0;
     text-align: center;
@@ -81,7 +85,7 @@ body {
 
 .input-name {
     width: 100%;
-    padding: 10px;
+    padding: 16px;
     border: 2px solid #000;
     border-radius: 25px 0 0 25px;
     font-size: 16px;
@@ -135,8 +139,9 @@ ul {
 }
 
 .result-list {
-    margin-top: 15px;
-    color: #05DF05;
+    margin-top: 0;
+    margin-bottom: 5%;
+    color: #eb0707a4;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
@@ -146,15 +151,15 @@ ul {
 .button-draw {
     display: flex;
     align-items: center;
-    width: 100%;
-    padding: 10px 40px;
+    width: 50%;
+    padding: 12px 40px;
     color: var(--color-white);
     background-color: var(--color-button);
     font-size: 16px;
 }
 
 .button-draw img {
-    margin-right: 40px;
+    margin-right:auto;
 }
 
 .button-draw:hover {
