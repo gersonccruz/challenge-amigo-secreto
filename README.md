@@ -1,8 +1,13 @@
 # Challenge - Amigo Secreto - ONE (G8)
+<div align="center">
+    <img width="50%" align="center" src="assets/projeto-finalizado.webp" alt="Como era o projeto inicial">
+</div>
+
 ## Objetivo do Challenge
 O challenge teve o objetivo de testar nosso conhecimento adquirido com os cursos de formação em lógica de programação.
 ## Detalhes do Projeto
 O projeto tem como seu principal objetivo obter a entrada de dados do usuário (Nome das pessoas), mostrar a lista na tela do site, e por fim fazer o sorteio de forma aleatória para saber qual nome foi sorteado.
+
 ## Linguagens Utilizadas
 <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="40" height="40" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="40" height="40" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="40" height="40" />
 
