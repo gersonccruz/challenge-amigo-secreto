@@ -38,6 +38,6 @@ function sortearAmigo(){
     }
     const index = listaDeAmigos.indexOf(nomeSorteado);
     if (index > -1){
-        listaDeAmigos.splice(index,1);
+        listaDeAmigos.splice(index,1); //remove nome da lista depois que for sorteado
     }
 }
